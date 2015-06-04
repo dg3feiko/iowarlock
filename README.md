@@ -1,3 +1,10 @@
+IO FORK
+==========
+
+This fork is to migrate `node-warlock` to be `ioredis` compatible
+
+
+
 warlock
 =======
 

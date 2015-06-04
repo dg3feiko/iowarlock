@@ -1,6 +1,9 @@
-var Redis = require('redis');
+var Redis = require('ioredis');
 
-var redis = module.exports = Redis.createClient();
+var redis = module.exports = new Redis.Cluster([{
+	port: 30001,
+	host: '127.0.0.1'
+}]);
 
 before(function(done){
   this.redis = redis;
