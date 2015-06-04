@@ -1,6 +1,6 @@
 {
-  "name": "node-redis-warlock",
-  "version": "0.1.2",
+  "name": "@aftership/iowarlock",
+  "version": "0.0.1",
   "description": "Battle-hardened distributed locking using redis",
   "main": "lib/warlock.js",
   "scripts": {
